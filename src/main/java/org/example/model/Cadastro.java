@@ -15,8 +15,9 @@ import java.util.UUID;
 @Getter
 @Setter
 @Builder
-@AllArgsConstructor
+@ToString
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Cadastro implements Serializable {
 
